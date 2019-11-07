@@ -1,14 +1,392 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+[
+  {
+    "id": "11",
+    "category": "Top Sellers",
+    "url": "top-sellers.html",
+    "active": "1",
+    "show_menu": "1",
+    "level": "2",
+    "parent": "2",
+    "sub_category": [
+      {
+        "id": "6",
+        "category": "Postcards",
+        "url": "top-sellers/postcards.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "11"
+      },
+      {
+        "id": "9",
+        "category": "Flyers",
+        "url": "top-sellers/flyerscat.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "11"
+      },
+      {
+        "id": "10",
+        "category": "Business Cards",
+        "url": "top-sellers/business-cards.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "11"
+      },
+      {
+        "id": "12",
+        "category": "Brochures",
+        "url": "top-sellers/brochures.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "11"
+      },
+      {
+        "id": "16",
+        "category": "Pocket Folders",
+        "url": "top-sellers/pocket-folders.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "11"
+      },
+      {
+        "id": "18",
+        "category": "Tickets",
+        "url": "top-sellers/tickets.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "11"
+      },
+      {
+        "id": "25",
+        "category": "Wall Calendars",
+        "url": "top-sellers/calendar.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "11"
+      },
+      {
+        "id": "27",
+        "category": "Booklets",
+        "url": "top-sellers/booklets.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "11"
+      },
+      {
+        "id": "28",
+        "category": "Magnets",
+        "url": "top-sellers/magnets.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "11"
+      },
+      {
+        "id": "30",
+        "category": "Greeting Cards",
+        "url": "top-sellers/greeting-cards.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "11"
+      },
+      {
+        "id": "54",
+        "category": "Variable Printing",
+        "url": "top-sellers/variable-printing.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "11"
+      },
+      {
+        "id": "66",
+        "category": "Pocket Folders Custom",
+        "url": "top-sellers/custom-pocket-folders.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "11"
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "category": "Print Products",
+    "url": "print-products.html",
+    "active": "1",
+    "show_menu": "1",
+    "level": "2",
+    "parent": "2",
+    "sub_category": [
+      {
+        "id": "19",
+        "category": "Posters",
+        "url": "print-products/posters.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "17"
+      },
+      {
+        "id": "26",
+        "category": "Door Hangers",
+        "url": "print-products/door-hangers.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "17"
+      },
+      {
+        "id": "48",
+        "category": "Digital Sheets",
+        "url": "print-products/digital-sheets.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "17"
+      },
+      {
+        "id": "53",
+        "category": "Tent Cards",
+        "url": "print-products/tent-cards.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "17"
+      },
+      {
+        "id": "55",
+        "category": "Tear Cards",
+        "url": "print-products/tear-cards.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "17"
+      },
+      {
+        "id": "68",
+        "category": "Keg Collars",
+        "url": "print-products/keg-collars.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "17"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "category": "Labels",
+    "url": "labels.html",
+    "active": "1",
+    "show_menu": "1",
+    "level": "2",
+    "parent": "2",
+    "sub_category": [
+      {
+        "id": "47",
+        "category": "Glossy Labels",
+        "url": "labels/labels-glossy.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "20"
+      },
+      {
+        "id": "52",
+        "category": "Laser / Inkjet Labels",
+        "url": "labels/labels-laser-inkjet.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "20"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "category": "All Products",
+    "url": "all-products.html",
+    "active": "1",
+    "show_menu": "1",
+    "level": "2",
+    "parent": "2"
+  },
+  {
+    "id": "23",
+    "category": "Stationery",
+    "url": "stationery.html",
+    "active": "1",
+    "show_menu": "1",
+    "level": "2",
+    "parent": "2",
+    "sub_category": [
+      {
+        "id": "24",
+        "category": "Letterheads",
+        "url": "stationery/letterhead.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "23"
+      },
+      {
+        "id": "31",
+        "category": "Envelopes",
+        "url": "stationery/envelopes.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "23"
+      },
+      {
+        "id": "37",
+        "category": "Carbonless Forms",
+        "url": "stationery/carbonless-forms.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "23"
+      },
+      {
+        "id": "38",
+        "category": "Notepads",
+        "url": "stationery/notepads.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "23"
+      }
+    ]
+  },
+  {
+    "id": "40",
+    "category": "Office Materials",
+    "url": "office-materials.html",
+    "active": "1",
+    "show_menu": "1",
+    "level": "2",
+    "parent": "2",
+    "sub_category": [
+      {
+        "id": "42",
+        "category": "Supply Boxes",
+        "url": "office-materials/supply-boxes.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "40"
+      },
+      {
+        "id": "43",
+        "category": "Letterhead Boxes",
+        "url": "office-materials/letterhead-boxes-87.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "40"
+      },
+      {
+        "id": "44",
+        "category": "Business Card Boxes",
+        "url": "office-materials/business-card-boxes-87.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "40"
+      },
+      {
+        "id": "45",
+        "category": "H-Stands",
+        "url": "office-materials/h-stands-87.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "40"
+      },
+      {
+        "id": "46",
+        "category": "A-Frame Stands",
+        "url": "office-materials/a-frame-stands.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "40"
+      },
+      {
+        "id": "49",
+        "category": "Digital Paper - Text",
+        "url": "office-materials/digital-paper-text.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "40"
+      },
+      {
+        "id": "50",
+        "category": "Digital Paper - Cover",
+        "url": "office-materials/digital-paper-cover.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "40"
+      }
+    ]
+  },
+  {
+    "id": "58",
+    "category": "Others",
+    "url": "others.html",
+    "active": "1",
+    "show_menu": "1",
+    "level": "2",
+    "parent": "2",
+    "sub_category": [
+      {
+        "id": "59",
+        "category": "Placemat",
+        "url": "others/placemat.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "58"
+      },
+      {
+        "id": "67",
+        "category": "Fan Clapper",
+        "url": "others/fan-clapper.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "58"
+      },
+      {
+        "id": "73",
+        "category": "Hard Copy Proof",
+        "url": "others/hardcopy.html",
+        "active": "1",
+        "show_menu": "1",
+        "level": "3",
+        "parent": "58"
+      }
+    ]
+  },
+  {
+    "id": "60",
+    "category": "APD Lite",
+    "url": "apd-lite.html",
+    "active": "1",
+    "show_menu": "1",
+    "level": "2",
+    "parent": "2"
   }
-}
+]
